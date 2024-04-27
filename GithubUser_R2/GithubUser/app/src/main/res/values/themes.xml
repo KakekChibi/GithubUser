@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.GithubUser" parent="Theme.Material3.DayNight">
+        <item name="iconTint">@color/iconTintLight</item>
+    </style>
+
+    <style name="Base.Theme.GithubUser.Dark" parent="Base.Theme.GithubUser">
+        <item name="iconTint">@color/iconTintDark</item>
+    </style>
+
+    <style name="Theme.GithubUser" parent="Base.Theme.GithubUser" />
+</resources>
